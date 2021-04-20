@@ -72,14 +72,14 @@ Partial Class Form1
         '
         'TxtBox1
         '
-        Me.TxtBox1.Location = New System.Drawing.Point(304, 48)
+        Me.TxtBox1.Location = New System.Drawing.Point(304, 115)
         Me.TxtBox1.Name = "TxtBox1"
         Me.TxtBox1.Size = New System.Drawing.Size(100, 22)
         Me.TxtBox1.TabIndex = 4
         '
         'TxtBox2
         '
-        Me.TxtBox2.Location = New System.Drawing.Point(304, 111)
+        Me.TxtBox2.Location = New System.Drawing.Point(304, 234)
         Me.TxtBox2.Name = "TxtBox2"
         Me.TxtBox2.Size = New System.Drawing.Size(100, 22)
         Me.TxtBox2.TabIndex = 5
