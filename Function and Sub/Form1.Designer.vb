@@ -32,6 +32,7 @@ Partial Class Form1
         Me.Lbl2 = New System.Windows.Forms.Label()
         Me.Lbl3 = New System.Windows.Forms.Label()
         Me.Lbl4 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Btn1
@@ -120,11 +121,21 @@ Partial Class Form1
         Me.Lbl4.TabIndex = 9
         Me.Lbl4.Text = "Label4"
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(452, 371)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(304, 34)
+        Me.Label1.TabIndex = 10
+        Me.Label1.Text = "NUR ALIAH HUSNA BINTI MOHAMED HUSAINI" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "18DDT19F1098"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Lbl4)
         Me.Controls.Add(Me.Lbl3)
         Me.Controls.Add(Me.Lbl2)
@@ -152,4 +163,5 @@ Partial Class Form1
     Friend WithEvents Lbl2 As Label
     Friend WithEvents Lbl3 As Label
     Friend WithEvents Lbl4 As Label
+    Friend WithEvents Label1 As Label
 End Class
